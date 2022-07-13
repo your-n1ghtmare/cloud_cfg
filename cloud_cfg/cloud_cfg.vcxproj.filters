@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cfg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cfg.hpp" />
+    <ClInclude Include="sdk.hpp" />
+    <ClInclude Include="include\HTTPRequest.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cfg.inl" />
+    <None Include="server\json.php">
+      <Filter>server</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{617c4dae-0915-4dfb-9169-d8b14cbc1f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{23f0de32-4913-4ef4-89a7-ef70dab3884f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
