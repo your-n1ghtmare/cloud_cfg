@@ -1,6 +1,7 @@
 # cloud_cfg
 
-**the project was created to show how to quickly send the json cfg to the server and get it back**
+**the project was created to show how to quickly send the json cfg to the server and get it back**    
+thanks to [@lagcomp](https://github.com/lagcomp) for cfg base
 
 # thirdparty
 
