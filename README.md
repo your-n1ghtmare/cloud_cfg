@@ -18,8 +18,8 @@ thanks to [@lagcomp](https://github.com/lagcomp) for cfg base
 
 - func to upload json file to server
 
-**g_cfg->upload_cfg("your.n1ghtmare");**
+**g_cfg->upload_cfg(str);**
 
 - func to get json file from server
 
-**g_cfg->get_cfg("your.n1ghtmare");**
+**g_cfg->get_cfg(str);**
